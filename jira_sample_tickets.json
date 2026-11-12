@@ -1,0 +1,357 @@
+{
+  "toelichting": "10 afgesloten SuitIT-supporttickets uit Jira (oktober-november 2026), geanonimiseerd. Alle namen van klanten, personen, e-mailadressen, telefoonnummers, IP-adressen, hostnamen, subscription-/app-id's, ticketnummers en links zijn vervangen door [placeholders]. Ticketkeys zijn vervangen door SAMPLE-01 t/m SAMPLE-10, klantcodes door [KLANT-x]. Afbeeldingen staan als [screenshot]. Interne notities van de dispatcher en een lange mailthread (SAMPLE-07, bevatte wachtwoord, SSH-keys en IP's) zijn weggelaten of ingekort; de overige tekst is nagenoeg het origineel, inclusief tikfouten. Comments hebben visibility 'publiek' (zichtbaar voor de klant) of 'intern' (alleen SuitIT).",
+  "tickets": [
+    {
+      "key": "SAMPLE-01",
+      "issuetype": "Incident",
+      "status": "Voltooid",
+      "priority": "P3 Medium",
+      "resolution": "Gereed",
+      "created": "2026-11-02T09:26:21+01:00",
+      "resolved": "2026-11-02T10:41:15+01:00",
+      "summary": "[Gebruiker] mist een map in Outlook",
+      "description": "[Gebruiker] mist een map in Outlook genaamd Services > NL > [Klantnaam] > [Contactpersoon] > [Locatie]",
+      "comments": [
+        {
+          "created": "2026-11-02T10:40:32+01:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Zoals zojuist telefonisch besproken is de map weer terecht, we kwamen achter dat het perongeluk hernoemd was.\n\nMet vriendelijke groet,\n\n[Engineer 1]"
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-02",
+      "issuetype": "Standaard Wijziging",
+      "status": "Voltooid",
+      "priority": "P3 Medium",
+      "resolution": "Gereed",
+      "created": "2026-10-28T18:04:58+01:00",
+      "resolved": "2026-10-29T09:55:10+01:00",
+      "summary": "[KLANT-B] SPOED !  Nieuw wachtwoord nodig !!!   [e-mailadres gebruiker]    [Bedrijfsnaam]",
+      "description": "Goedenavond !\n\nVanuit mijn thuisPC maak ik dagelijks verbinding met AVD. Dat doe ik via Forticlient VPN, zie hieronder\n\n[screenshot]\n\nNadat ik zie dat er verbinding is, klik ik op onderstaand icoontje\n\n[screenshot]\n\nEn normaal gesproken kom ik dan in mijn AVD omgeving, maar nu krijg ik de melding dat het wachtwoord is verlopen ?!?\n\nVandaag op de zaak geweest en vanaf mijn PC op de zaak gewoon in kunnen loggen in AVD. Géén melding gehad dat ik\n\nEen nieuw WW moest aanmaken.\n\n[screenshot]\n\nNu heb ik nog flink wat werk te doen vanavond én morgen vanuit huis, maar zélf mijn wachtwoord aanpassen lukt niet omdat ik thuis zit en niet op de zaak.\n\nKunnen jullie me met spoed helpen ?\n\nVr. Gr. [Gebruiker]",
+      "comments": [
+        {
+          "created": "2026-10-29T09:54:48+01:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemorgen [Gebruiker],\n\nWij spraken elkaar zojuist over dit ticket. Je gaf aan dat je gisteren @[Engineer 2] al hebt gesproken en dat het nu weer voor je werkt. Ik zal dit ticket sluiten!\n\nMet vriendelijke groet,\n[Engineer 1]"
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-03",
+      "issuetype": "Standaard Wijziging",
+      "status": "Voltooid",
+      "priority": "P4 Low",
+      "resolution": "Gereed",
+      "created": "2026-10-20T11:17:25+02:00",
+      "resolved": "2026-10-29T10:39:51+01:00",
+      "summary": "[KLANT-C] Re: Account aanvraag extrene leverancier",
+      "description": "Beste Support,\nZouden jullie ook [App leverancier] kunnen goedkeuren voor login met Microsoft? Als het goed is er een toestemmings verzoek vanuit [Aanvrager] doorgestuurd naar het Microsoft IT Admin consent account.\n\nGrt,\n\n[Externe consultant]\n[Leverancier]\n[telefoonnummer]\n[e-mailadres]\n\nOn Tue, Oct 20, 2026 at 10:08 AM [Aanvrager] <[e-mailadres]> wrote:\n\n> Mag ik een basis account aanvragen voor een externe consultant [Externe consultant]: [e-mailadres]\n>\n> [Externe consultant] helpt ons als leverancier met de implementatie van een software pakket en ik wil graag dat hij toegang heeft tot onze Teams/Sharepoint [Kennisbank-site]\n>\n> Alvast dank,\n>\n> [Aanvrager]\n\nVerzonden vanuit Outlook voor iOS",
+      "comments": [
+        {
+          "created": "2026-10-22T08:01:57+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemorgen [Externe consultant],\n\nIk heb [Klant] interne IT aangehaakt om het verzoek te beoordelen. Indien zij akkoord zijn met het toestaan van [App leverancier], zal ik direct de goedkeuring verlenen in Entra.\n\nMet vriendelijke groet,\n[Engineer 1]"
+        },
+        {
+          "created": "2026-10-27T12:00:30+01:00",
+          "author": "Automation for Jira",
+          "visibility": "intern",
+          "body": "Er is een eerste reminder gestuurd voor dit ticket door de autoclose funtie."
+        },
+        {
+          "created": "2026-10-28T11:57:16+01:00",
+          "author": "[IT-contactpersoon klant]",
+          "visibility": "publiek",
+          "body": "Hoi [Engineer 1],\n\nWat voor rechten moet [Externe consultant] allemaal krijgen? Is het alleen tot een specifieke sharepoint site of ook ergens admin rechten op?\n\nVoor nu een decline dus."
+        },
+        {
+          "created": "2026-10-28T13:53:38+01:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemiddag [IT-contactpersoon klant],\n\nIn principe gaat dit verzoek niet over rechten van een persoon, maar over het toestaan van een applicatie binnen jullie omgeving.\n\nIn Entra staat bij Admin consent een pending request voor toegang tot [App leverancier] (app id [app-id]). Bij goedkeuring, sta je gebruikers binnen jullie tenant toe om gebruik te maken van deze applicatie. Indien gewenst kunnen we, na goedkeuring, ook de toegang beperken tot een selecte groep of eerst een pilot groep.\n\nDe standaard is goedkeuring van de applicatie voor de gehele organisatie.\n\nIn het linked ticket ([gekoppeld ticket]) heeft [Externe consultant] een gast account gekregen, dit verzoek heeft niets te maken met dat account of de rechten ervan.\n\nMet vriendelijke groet,\n[Engineer 1]"
+        },
+        {
+          "created": "2026-10-28T14:12:26+01:00",
+          "author": "Automation for Jira",
+          "visibility": "intern",
+          "body": "[Goedkeurders klant] heeft het verzoek beantwoord met: approved"
+        },
+        {
+          "created": "2026-10-28T14:12:50+01:00",
+          "author": "[IT-contactpersoon klant]",
+          "visibility": "publiek",
+          "body": "Hoi [Engineer 1],\n\nApplicatie rechten is OK. Graag wel consolideren naar alleen de gebruikers :)\n\nThanks!"
+        },
+        {
+          "created": "2026-10-28T14:36:21+01:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemiddag,\n\nDe applicatie is goedgekeurd en beperkt tot gebruikers in de groep [beveiligingsgroep]. De leden van de groep op dit moment zijn [Aanvrager] en [Externe consultant].\n\nMet vriendelijke groet,\n[Engineer 1]"
+        },
+        {
+          "created": "2026-10-29T10:32:59+01:00",
+          "author": "[Externe consultant]",
+          "visibility": "publiek",
+          "body": "Hallo [Engineer 1],\n\n[Aanvrager] heeft succesvol ingelogd, dank!\n\nKun je de rest van de groep in het project ook toevoegen? Het gaat om\n\n[Collega 1]\n\n[Collega 2]\n\n[Collega 3]\n\n[e-mailadres collega 4]\n\n[e-mailadres collega 5]\n\nDan kunnen we voorlopig even vooruit,\n\nDank,\n\n[Externe consultant]"
+        },
+        {
+          "created": "2026-10-29T10:39:52+01:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemorgen,\n\nFijn om te horen dat het werkt! Ik heb het voor de groep beschikbaar gemaakt en zal het ticket sluiten.\n\nMet vriendelijke groet,\n[Engineer 1]"
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-04",
+      "issuetype": "Standaard Wijziging",
+      "status": "Voltooid",
+      "priority": "P4 Low",
+      "resolution": "Declined",
+      "created": "2026-10-15T14:42:34+02:00",
+      "resolved": "2026-10-15T16:18:47+02:00",
+      "summary": "[KLANT-D] Machtiging om de algemene agenda in te kijken",
+      "description": "Hoi, ik heb eerder een ticket aangemaakt, maar die lijkt te zijn verwijderd. Mag ik toegang om de [algemeen e-mailadres] agenda in te kijken? Toen ik deze wilde toevoegen stond er dat ik mogelijk niet was gemachtigd. Bedankt!",
+      "comments": [
+        {
+          "created": "2026-10-15T16:18:47+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemiddag [Gebruiker],\n\nJe eerdere verzoek is afgewezen. Als je toegang wilt, mag je deze bij [Leidinggevende] aanvragen.\n\nMet vriendelijke groet,\n[Engineer 1]"
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-05",
+      "issuetype": "Standaard Wijziging",
+      "status": "Voltooid",
+      "priority": "P4 Low",
+      "resolution": "Gereed",
+      "created": "2026-10-13T14:21:41+02:00",
+      "resolved": "2026-10-14T08:21:25+02:00",
+      "summary": "[KLANT-E] Handtekening",
+      "description": "Hi!\n\nWillen jullie mijn handtekening aanpassen en er alleen \"teamleider\" van maken. Dus \"[afdeling]\" eruit?\n\nMet vriendelijke groet,\n[Gebruiker]\nTeamleider [Afdeling]\n[telefoonnummer]\n[Organisatie]\n[logo's en links naar website en social media]\n[standaard e-maildisclaimer]\n\nVerzonden vanuit Outlook voor iOS",
+      "comments": [
+        {
+          "created": "2026-10-14T08:21:02+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemorgen [Gebruiker],\n\nIk heb je handtekening aangepast. Er zou nu alleen Teamleider moeten staan.\n\nMet vriendelijke groet,\n[Engineer 1]"
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-06",
+      "issuetype": "Informatieverzoek",
+      "status": "Voltooid",
+      "priority": "P5 Minor",
+      "resolution": "Gereed",
+      "created": "2026-10-12T12:10:39+02:00",
+      "resolved": "2026-10-12T16:38:42+02:00",
+      "summary": "[KLANT-E] Vraag betreft laptop",
+      "description": "Dag,\n\nZou het ook mogelijk zijn dat ik beide systemen kan installeren op mijn eigen laptop? ([applicatie 1] en [applicatie 2]).\n\nMvg [Gebruiker]\n\nMet vriendelijke groet,\n[Gebruiker]\n[Functie]\n[Organisatie]\n[telefoonnummer]",
+      "comments": [
+        {
+          "created": "2026-10-12T16:38:42+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemiddag [Gebruiker],\n\nVanwege veiligheidsredenen is dat niet mogelijk.\n\nMet vriendelijke groet,\n[Engineer 1]"
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-07",
+      "issuetype": "Incident",
+      "status": "Voltooid",
+      "priority": "P3 Medium",
+      "resolution": "Gereed",
+      "created": "2026-10-09T08:44:39+02:00",
+      "resolved": "2026-10-13T16:10:10+02:00",
+      "summary": "[KLANT-F] Azure Odoo server [Klant]",
+      "description": "Onderstaande mail is van de applicatiebeheerder die meldt er niet in te kunnen. Graag nakijken en met spoed oppakken.\n\nVerstuurd vanaf mijn iPhone\nBegin doorgestuurd bericht:\n\n> Van: [Externe applicatiebeheerder] <[e-mailadres]>\n> Datum: 9 oktober 2026 om 08:38:04 CEST\n> Aan: [SuitIT-collega] <[e-mailadres]>\n> Kopie: [Contactpersoon klant] <[e-mailadres]>\n> Onderwerp: Antw: Server Specs\n\nBeste [SuitIT-collega],\n\nHet lijkt erop dat [IP-adres TEST-server] niet bereikbaar is, ook ssh [gebruikersnaam]@[IP-adres TEST-server] werkt niet. Kun jij zien wat er aan de hand is?\n\nKind regards, Met vriendelijke groeten,\n\n[Externe applicatiebeheerder]\n[Functie]\n[Leverancier]\n\n[Ingekort: eerdere mailthread uit juli 2026 over de oplevering van twee Debian 13 VM's (PROD en TEST) voor Odoo achter een FortiGate-VM firewall met 1:1 NAT naar een eigen publiek IP per VM. SSH (poort 22) alleen vanaf whitelisted IP's van de leverancier, HTTPS (poort 443) publiek, later op verzoek ook HTTP (poort 80) geopend voor een redirect naar HTTPS. De leverancier kreeg een account met SSH-key en sudo-rechten; extra dataschijven zijn toegevoegd voor database en Odoo-data.]",
+      "comments": [
+        {
+          "created": "2026-10-09T10:16:35+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemorgen [SuitIT-collega],\n\nIk zal een collega vragen om hier direct naar te kijken!\n\nMet vriendelijke groet,\n[Engineer 1]"
+        },
+        {
+          "created": "2026-10-09T11:03:06+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Hoi [SuitIT-collega],\n\nSorry dit heb ik veroorzaakt. Heb gister NSG op het Subnet gezet ivm test die aan het doen was op de andere servers.\n\nDe inbound regels op de NSG [nsg-naam] zijn aangepast zodat [Leverancier] op poorten 22. 80 en 443 erbij mogen vanuit de IP adressen\n\n[IP-adres 1], [IP-adres 2], [IP-adres 3] en ipv6: [IPv6-adres]\n\nHiermee zou het weer allemaal beschikbaar moeten zijn voor [Leverancier]."
+        },
+        {
+          "created": "2026-10-13T14:46:07+02:00",
+          "author": "automation",
+          "visibility": "intern",
+          "body": "De SLA-timer van dit ticket verloopt over 60 minuten."
+        },
+        {
+          "created": "2026-10-13T15:31:10+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "intern",
+          "body": "@[Engineer 2] Kan deze dicht?"
+        },
+        {
+          "created": "2026-10-13T16:10:10+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Issue resolved"
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-08",
+      "issuetype": "Incident",
+      "status": "Voltooid",
+      "priority": "P4 Low",
+      "resolution": "Gereed",
+      "created": "2026-10-02T15:50:31+02:00",
+      "resolved": "2026-10-07T16:10:19+02:00",
+      "summary": "[KLANT-G] [laptopnaam] geen beeldschermen + WIndows hallo na standby",
+      "description": "Ik heb [Gebruiker] gesproken over problemen met zijn laptop [laptopnaam], Sinds deze week verliest zijn laptop de verbinding met het beeldscherm wanneer het in standby gaat. Verder ervaart hij ook problemen met Windows Hallo camera en pincode wanneer dit gebeurd.\n\nIk zag dat meerdere updates in de wachtrij stonden dus die hebben wij gedraaid.\nVoor nu lijkt het te werken",
+      "comments": [
+        {
+          "created": "2026-10-02T15:51:19+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemiddag [Gebruiker],\n\nHou mij op de hoogte of het probleem nu opgelost is.\nMocht het terug komen dan ga ik op afstand de logging ophalen om dit verder te onderzoeken"
+        },
+        {
+          "created": "2026-10-07T13:00:15+02:00",
+          "author": "Automation for Jira",
+          "visibility": "intern",
+          "body": "Er is een eerste reminder gestuurd voor dit ticket door de autoclose funtie."
+        },
+        {
+          "created": "2026-10-07T14:31:40+02:00",
+          "author": "[Gebruiker]",
+          "visibility": "publiek",
+          "body": "Tot nu toe geen problemen ondervonden.\n\nMet vriendelijke groet\n\n[Gebruiker]\n\n[Functie]"
+        },
+        {
+          "created": "2026-10-07T16:09:50+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemiddag [Gebruiker],\n\nGoed om te horen,\nVoor nu sluit ik het ticket. Mocht het probleem toch nog voordoen laat het ons weten dan heropenen wij dit ticket."
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-09",
+      "issuetype": "Incident",
+      "status": "Voltooid",
+      "priority": "P3 Medium",
+      "resolution": "Gereed",
+      "created": "2026-10-01T14:37:16+02:00",
+      "resolved": "2026-10-12T08:56:09+02:00",
+      "summary": "[KLANT-H] Kan niet volledige Azure kosten bekijken",
+      "description": "Beste,\n\nWij checken altijd iedere maand de kosten in Azure om deze door te berekenen aan onze klanten. Hiervoor loggen we in op de Azure portal en bekijken we de kosten van de subscription.\n\nHet gaat hier om de [Klant] Subscription ( [subscription-id] )\n\nAls ik nu de kosten van de maand September wil bekijken zie ik ze pas vanaf 14 september waardoor het lager is dan ik had verwacht.\n\nToen ik naar Augustus ging zag ik:\n\n[screenshot: Cost analysis van augustus 2026 toont geen kosten]\n\nDit betekend dat wij alle data van voor 14 september niet meer in kunnen zien of kwijt zijn\n\nMijn vragen:\n\n* Kunnen jullie me helpen met het juiste getal voor de maand September?\n* Kunnen jullie zorgen dat we de inzichten weer kunnen krijgen (eventueel contact opnemen met Microsoft hierover?)\n\nAdditionele informatie: Recent had ik [eerder ticket] ingeschoten weet niet of dit er mee te maken heeft",
+      "comments": [
+        {
+          "created": "2026-10-01T16:42:35+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Beste [Gebruiker],\n\nBedankt voor het melden van het probleem. Ik zal het ticket doorzetten naar mijn collega die meer bekend is met Azure en jou hier hopelijk verder mee kan helpen.\n\nMocht er meer informatie nodig zijn of mijn collega meer informatie hebben dan zal hij jou via dit ticket informeren.\n\nMet vriendelijke groet,\n[Engineer 1]"
+        },
+        {
+          "created": "2026-10-01T16:51:08+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "intern",
+          "body": "Ik ben bang dat dit te maken heeft met de [nieuwe distributeur] migratie\nDe migratie datum matched namelijk. Dit is gebeurd op 15 sept"
+        },
+        {
+          "created": "2026-10-01T17:00:22+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Hoi [Gebruiker],\n\nIk ben erin gedoken en zie heb zelf geen complete inzage.\nIk ga hiervoor een case indienen bij Azure support. Zodra ik een antwoord heb krijg je een update van mij"
+        },
+        {
+          "created": "2026-10-01T17:01:40+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "intern",
+          "body": "Dit komt door de [oude distributeur] naar [nieuwe distributeur] transfer. Wij moeten de gegevens opvragen bij [oude distributeur]. Dit ga ik morgen doen"
+        },
+        {
+          "created": "2026-10-02T10:12:15+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "intern",
+          "body": "Ik mag geen tickets meer maken bij [oude distributeur]\nBesproken met [Engineer 3], Hij gaat een ticket voor mij indienen"
+        },
+        {
+          "created": "2026-10-02T10:32:50+02:00",
+          "author": "[Engineer 3] (SuitIT)",
+          "visibility": "intern",
+          "body": "Met pijn en moeite deze aangemaakt → [link naar supportcase oude distributeur]"
+        },
+        {
+          "created": "2026-10-07T15:31:03+02:00",
+          "author": "[Customer Success] (SuitIT)",
+          "visibility": "intern",
+          "body": "[nieuwe distributeur] case aangemaakt [link naar supportcase] voor vervolg"
+        },
+        {
+          "created": "2026-10-07T16:39:31+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemiddag [Gebruiker] en [Gebruiker 2],\n\nWij zijn nog in afwachting van de historische data.\nIk hoop jullie zo snel mogelijk van een update te kunnen voorzien."
+        },
+        {
+          "created": "2026-10-07T16:40:46+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "intern",
+          "body": "Huidige status is dat [nieuwe distributeur] en [oude distributeur] pingpongen.\nNu heeft [nieuwe distributeur] gelijk en moeten wij voor de historische data bij [oude distributeur] zijn.\n\n[Collega] heeft een contact daar en gaat mij met die persoon in contact brengen. Hiermee hopen wij door de eerstelijns support heen te prikken"
+        },
+        {
+          "created": "2026-10-09T14:20:30+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Hey [Gebruiker 2] en [Gebruiker],\n\nGoed nieuws wij hebben toegang tot de historische data. Dit is gedeeld met ons via PowerBI.\nIs deze screenshot voldoende? Zo niet laten wij een moment inplannen dan kunnen wij er samen doorheen gaan.\n\n[screenshot]"
+        },
+        {
+          "created": "2026-10-09T20:22:40+02:00",
+          "author": "[Gebruiker]",
+          "visibility": "publiek",
+          "body": "Dank [Engineer 2], dit is precies wat we nodig hadden!\n\nGroet,\n[Gebruiker]\n\n[handtekening en standaard e-maildisclaimer]"
+        },
+        {
+          "created": "2026-10-12T08:55:52+02:00",
+          "author": "[Engineer 2] (SuitIT)",
+          "visibility": "publiek",
+          "body": "Goedemorgen [Gebruiker],\n\nGoed om te horen. Ik sluit dit ticket.\nMocht je nog iets nodig hebben laat het ons weten."
+        }
+      ]
+    },
+    {
+      "key": "SAMPLE-10",
+      "issuetype": "Informatieverzoek",
+      "status": "Voltooid",
+      "priority": "P5 Minor",
+      "resolution": "Gereed",
+      "created": "2026-10-22T14:42:25+02:00",
+      "resolved": "2026-10-23T09:50:13+02:00",
+      "summary": "[KLANT-F] Re: Need BarTender 2022 R5 (11.3.5) installer for client – licensing service version mismatch",
+      "description": "##- Please type your reply above this line -##\n\nWe've marked this ticket ([case-nr]) as resolved.\n\nIf you feel like the issue is not yet resolved, just reply to this email or click the link below and we will continue working on your issue until you are satisfied.\n[link naar supportcase leverancier]\n\n[Support-medewerker leverancier] (BarTender Support Center) Oct 22, 2026, 5:41 AM PDT\n\nHello [Engineer 1],\n\nThanks for chatting with us today.\n\nAs mentioned, BarTender R5 and BarTender R8, are exact the same version, the only difference, is that R8 is the latest release of the version, and included patches to issues and improvements:\n\n[link naar kennisbankartikel BarTender 2022]\n\nI can confirm that both pcs with different revisions, will be able to communicate without issues.\n\nHere again the link:\n\n[link naar downloadportal BarTender]\n\nUnder other options and versions:\n\n[screenshot]\n\nYou confirmed this ticket could be closed, so we are proceeding, but feel free to contact us any time you need help with. You might receive a survey once the ticket has been set to close, we would like some feedback :)\nHave a nice day!\nRegards\n\n---\n\nSuitIT Oct 22, 2026, 4:33 AM PDT\n\nHello,\n\nWe are the IT service provider for [Klant] (support number [supportnummer], Automation, 3 printers).\n\nSituation:\n\n* The license server [LICENTIESERVER] runs BarTender 2022 R5 (11.3.5.197999) with the BarTender Licensing Service. The license is valid (support until 31-3-2028, supports up to BarTender 12.1).\n* One client workstation was reinstalled with a newer BarTender version (first 11.5, later 12.1.1).\n* In the BarTender Licensing Wizard on the client, the license on [LICENTIESERVER] is visible but greyed out with the remark \"The service requires an upgrade\" (with 11.5) and \"The license does not support the current version\" (with 12.1.1).\n* We want to install the same version as the license server (2022 R5, 11.3.5) on the client, but the portal only offers BarTender 2022 R8 as the latest 2022 release.\n\nQuestions:\n1. Can you provide a download link for the BarTender 2022 R5 (11.3.5.197999) installer?\n2. Alternatively: will a BarTender 2022 R8 client work with a 2022 R5 licensing service, or must the license server be upgraded to the same version as the client?\n3. If we upgrade the license server to 12.1.1, does the license need to be refreshed or reactivated in the Administration Console?\n\nThe user currently cannot print labels, so a quick response would be appreciated.\n\nKind regards,\n[Engineer 1]\nSuitIT\n\n---\n\nThis email is a service from BarTender Support Center. Delivered by Zendesk\n\n[Support-medewerker leverancier],\nSupport Technician | [Leverancier] EMEA | [e-mailadres]",
+      "comments": [
+        {
+          "created": "2026-10-23T09:49:56+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "publiek",
+          "body": "C"
+        },
+        {
+          "created": "2026-10-23T09:50:01+02:00",
+          "author": "[Engineer 1] (SuitIT)",
+          "visibility": "intern",
+          "body": "Was ik!"
+        }
+      ]
+    }
+  ]
+}
